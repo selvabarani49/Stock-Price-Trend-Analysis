@@ -1,0 +1,17 @@
+public class Stock {
+    private String ticker;
+    private double[] prices;
+
+    public Stock(String ticker, double[] prices) {
+        this.ticker = ticker;
+        this.prices = prices;
+    }
+
+    public String getTicker() {
+        return ticker;
+    }
+
+    public double[] getPrices() {
+        return prices;
+    }
+}
